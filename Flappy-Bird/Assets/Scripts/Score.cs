@@ -5,12 +5,17 @@ using UnityEngine;
 public class Score : MonoBehaviour
 {
     public static int score;
-    public static int bestScore = 0;
+    public static int bestScore;
     public static bool newBest = false;
 
     void Start()
     {
         score = 0;
+
+        if (PlayerPrefs.GetInt("Best", -1) == -1)
+            bestScore = 0;
+        else
+            bestScore = PlayerPrefs.GetInt("Best");
     }
 
     void Update()
@@ -23,6 +28,7 @@ public class Score : MonoBehaviour
         if (score > bestScore)
         {
             bestScore = score;
+            PlayerPrefs.SetInt("Best", bestScore);
             newBest = true;
         }
     }
