@@ -18,6 +18,8 @@
   <i>Unraveled[RPG] - Sneak-peak (https://youtu.be/YzJ87GWZIfw)</i>
 </p>
 
+---
+
 ## :fleur_de_lis: About
 
 - **Unraveled** is a RPG game with references to _medieval nordic folklore_
@@ -30,14 +32,17 @@
 - :heavy_check_mark: Open World Map
 - :heavy_check_mark: Sword Combat System
 - :heavy_check_mark: Character Statistics
-- :heavy_check_mark: Simple AI enemies
-- :heavy_check_mark: Interaction With Special Objects
+- :heavy_check_mark: Simple AI Enemies
+- :heavy_check_mark: Interactions With Special Objects
 - :heavy_check_mark: Player HUD
 - :heavy_check_mark: Main Menu with settings
 
-### :name_badge: Not Implemented Yet
+---
 
-- :x: Inventory System
-- :x: Item Statistics
-- :x: Ability-based Combat System
-- :x: NPC Quests
+### :hammer: Upcomming
+
+- :new: Inventory System
+- :new: Item Statistics
+- :new: Ability-based Combat System
+- :new: Quests
+- :new: NPCs
