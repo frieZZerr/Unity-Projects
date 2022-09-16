@@ -6,16 +6,8 @@ using UnityEngine.UI;
 public class EnemyHUD : MonoBehaviour
 {
     public Image hpBar;
-
     public EnemyStats stats;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         UpdateUI();
@@ -23,6 +15,6 @@ public class EnemyHUD : MonoBehaviour
 
     void UpdateUI()
     {
-        hpBar.fillAmount = stats.currentHealth / stats.health.GetValue();
+        hpBar.fillAmount = (float)stats.currentHealth / (float)stats.health.GetValue();
     }
 }

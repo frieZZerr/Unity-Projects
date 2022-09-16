@@ -9,7 +9,8 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: tanne rinde 2
   m_Shader: {fileID: 4800000, guid: 0f4122b9a743b744abe2fb6a0a88868b, type: 3}
-  m_ShaderKeywords: _NORMALMAP
+  m_ShaderKeywords: BACKFACENORMALMODE_MIRROR EFFECT_BUMP EFFECT_HUE_VARIATION _NORMALMAP
+    _WINDQUALITY_NONE
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -47,6 +48,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _ExtraTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _GlossMap:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -71,6 +76,10 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _SubsurfaceTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -84,9 +93,14 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
+    - BACKFACENORMALMODE: 1
+    - EFFECT_EXTRA_TEX: 1
     - _AO: 1.4285712
     - _AlphaClip: 0
+    - _AlphaClipThreshold: 0.1
     - _BaseLight: 0
+    - _BillboardKwToggle: 0
+    - _BillboardShadowFade: 0.5
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -101,8 +115,11 @@ Material:
     - _Glossiness: 0
     - _GlossinessSource: 0
     - _GlossyReflections: 0
+    - _HueVariationKwToggle: 1
     - _Metallic: 0
+    - _NormalMapKwToggle: 1
     - _OcclusionStrength: 1
+    - _OldHueVarBehavior: 0
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -114,7 +131,11 @@ Material:
     - _SpecularHighlights: 1
     - _SquashAmount: 0
     - _SrcBlend: 1
+    - _SubsurfaceIndirect: 0.25
+    - _SubsurfaceKwToggle: 0
     - _Surface: 0
+    - _TwoSided: 2
+    - _WINDQUALITY: 4
     - _WindQuality: 0
     - _WorkflowMode: 1
     - _ZWrite: 1
@@ -123,8 +144,10 @@ Material:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _HueVariation: {r: 1, g: 0.5, b: 0, a: 0.1}
+    - _HueVariationColor: {r: 1, g: 0.5, b: 0, a: 0.2}
     - _Scale: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.49264705, g: 0.49264705, b: 0.49264705, a: 1}
+    - _SubsurfaceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceColor: {r: 1, g: 1, b: 1, a: 1}
     - _TreeInstanceScale: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []

@@ -23,7 +23,8 @@ public class PlayerHUD : MonoBehaviour
 
     void UpdateUI()
     {
-        healthBar.fillAmount = stats.currentHealth / stats.health.GetValue();
+        float fill = (float)stats.currentHealth / (float)stats.health.GetValue();
+        healthBar.fillAmount = fill;
         xpBar.fillAmount = stats.currentXp / 100f;
     }
 }

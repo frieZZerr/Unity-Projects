@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
 
 public class EnemyAI : MonoBehaviour
 {
@@ -44,7 +45,6 @@ public class EnemyAI : MonoBehaviour
     private void Patrolling()
     {
         if (!walkPointSet) SearchWalkPoint();
-
         if (walkPointSet) agent.SetDestination(walkPoint);
 
         Vector3 distanceToWalkPoint = transform.position - walkPoint;
