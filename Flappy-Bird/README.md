@@ -37,3 +37,7 @@ without the fear of not being able to pause the game when needed as there's an e
 When hitting the pipe remember that your medal depends on your current score, so give it your best:
 
 ![game_over](https://user-images.githubusercontent.com/105242009/190862897-71f96171-58d1-4bae-89e7-4c1024924b31.png)
+
+## DevLog
+
+- [Update-Notes](https://github.com/frieZZerr/Unity-Projects/blob/main/Flappy-Bird/Update-Notes.md)
