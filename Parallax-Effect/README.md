@@ -48,3 +48,7 @@
     startPos -= length;
  ```
  
+## Simple UI
+
+- The project also has a simple slider to change camera's speed
+- The slider fades in when hovered upon and fades out on exit
