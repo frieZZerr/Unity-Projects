@@ -10,3 +10,4 @@
 - Added new location (<i>Altar of The Damned</i>)
 - Fixed UI bug with player's and AI's health bar
 - Added a <b>Guard Tower</b> in the Mountains
+- Changed player's Main HUD
