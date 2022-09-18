@@ -1,4 +1,15 @@
-# UNITY-Roulette
-Cassino roulette game made with UnityEngine
+<h1 align="center"> Cassino Roulette </h1>
 
-![roulette](https://user-images.githubusercontent.com/105242009/188303162-d6669330-fce4-40ce-b711-d3d98b354790.JPG)
+<p align="center"> <i>Free of bankruptcy risk Cassino Roulette Simulator</i> </p>
+
+![roulette-wheel](https://user-images.githubusercontent.com/105242009/190898159-e0c904b3-7033-44ad-8cc4-13d3bcccd358.PNG)
+
+## Betting
+- At start player gets a free ***1000$***!
+- Winning multiplier depends on placed bet's probability of being rolled out
+- ***Firstly*** enter desired bet amount in the bet field and then choose a bet on the layout
+- When ready - press `Spin!` button
+
+## Settings
+- If you hover close to the top of the screen a `Settings Bar` will slide out
+- There are options to **change volume, completly mute the audio** or get some money at a ***0% return rate***!
