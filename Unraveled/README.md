@@ -39,10 +39,14 @@
 
 ---
 
-### :hammer: Upcomming
+#### :hammer: Upcomming
 
 - :new: Inventory System
 - :new: Item Statistics
 - :new: Ability-based Combat System
 - :new: Quests
 - :new: NPCs
+
+## DevLog
+
+- [Patch-Notes](https://github.com/frieZZerr/Unity-Projects/blob/main/Unraveled/Patch-Notes.md)
