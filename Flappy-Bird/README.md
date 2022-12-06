@@ -34,9 +34,15 @@ without the fear of not being able to pause the game when needed as there's an e
 
 ![pause](https://user-images.githubusercontent.com/105242009/190862827-e577fe89-1ca3-4c4f-b2a5-beda871d703f.png)
 
+## Game Over
+
 When hitting the pipe remember that your medal depends on your current score, so give it your best:
 
 ![game_over](https://user-images.githubusercontent.com/105242009/190862897-71f96171-58d1-4bae-89e7-4c1024924b31.png)
+
+You can also check your ___medal statistics___ and see how much of a champ you are:
+
+![statistics](https://user-images.githubusercontent.com/105242009/205987839-de18afac-df9a-44be-91b6-367bec86d95c.png)
 
 ## Updates
 
