@@ -47,6 +47,6 @@
 - :new: Quests
 - :new: NPCs
 
-## DevLog
+## Updates
 
 - [Patch-Notes](https://github.com/frieZZerr/Unity-Projects/blob/main/Unraveled/Patch-Notes.md)
