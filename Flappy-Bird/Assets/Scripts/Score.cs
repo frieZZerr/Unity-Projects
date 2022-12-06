@@ -12,6 +12,7 @@ public class Score : MonoBehaviour
     {
         score = 0;
 
+        //  BEST SCORE
         if (PlayerPrefs.GetInt("Best", -1) == -1)
             bestScore = 0;
         else
